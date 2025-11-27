@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ================================
+# 安全相關 - 敏感檔案
+# ================================
+
+# 環境變數檔案
+.env
+.env.*
+!.env.example
+!.env.template
+
+# 私鑰和憑證
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# 認證和密鑰
+*secret*
+*credential*
+*private*
+*.secrets
+
+# API 金鑰配置
+config.local.js
+config.local.ts
+secrets.json
+api-keys.json
+
+# 資料庫
+*.sqlite
+*.db
